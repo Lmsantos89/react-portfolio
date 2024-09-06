@@ -1,0 +1,68 @@
+{
+  "HERO_CONTENT": "Je suis Luis Santos, un développeur Java FullStack dévoué avec une vaste expérience dans le développement d'applications web sophistiquées et évolutives. Au fil de plus de six années dans l'industrie, j'ai peaufiné mon expertise tant en technologies front-end qu'en back-end, incluant Angular 2+, Vue.js, React pour le côté client, et Java 8+, Spring Framework pour les opérations côté serveur, complété par une maîtrise de la gestion de bases de données avec MySQL, PostgreSQL.",
+
+  "ABOUT_TEXT": "Je suis un développeur Java FullStack engagé avec plus de six ans d'expérience dans le développement d'applications web évolutives. Mon expertise technique inclut le travail avec des frameworks front-end tels que Angular, Vue.js, et React, ainsi que le développement back-end avec Java et le Spring Framework. Je maîtrise la gestion de bases de données avec MySQL et PostgreSQL. Mon parcours professionnel inclut des contributions significatives chez Edgelab et Affinity, où je me suis concentré sur l'amélioration de la fonctionnalité des applications et de l'expérience utilisateur par une implémentation technologique stratégique.",
+
+  "EXPERIENCES": [
+    {
+      "year": "2023 - Présent",
+      "role": "Développeur Full Stack Senior",
+      "company": "Google Inc.",
+      "description": "J'ai dirigé une équipe dans le développement et la maintenance d'applications web en utilisant JavaScript, React.js, et Node.js. J'ai implémenté des API RESTful et intégré avec des bases de données MongoDB. J'ai collaboré avec les parties prenantes pour définir les exigences et les délais du projet.",
+      "technologies": ["Javascript", "React.js", "Next.js", "mongoDB"]
+    },
+    {
+      "year": "2022 - 2023",
+      "role": "Développeur Frontend",
+      "company": "Adobe",
+      "description": "J'ai conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. J'ai travaillé en étroite collaboration avec les développeurs backend pour intégrer les composants frontend avec les API Node.js. J'ai mis en œuvre des designs responsives et optimisé la performance du frontend.",
+      "technologies": ["HTML", "CSS", "Vue.js", "mySQL"]
+    },
+    {
+      "year": "2021 - 2022",
+      "role": "Développeur Full Stack",
+      "company": "Facebook",
+      "description": "J'ai développé et maintenu des applications web en utilisant JavaScript, React.js, et Node.js. J'ai conçu et implémenté des API RESTful pour la communication des données. J'ai collaboré avec des équipes multifonctionnelles pour livrer des produits logiciels de haute qualité dans les délais.",
+      "technologies": ["Python", "Svelte", "Three.js", "Postgres"]
+    },
+    {
+      "year": "2020 - 2021",
+      "role": "Ingénieur Logiciel",
+      "company": "Paypal",
+      "description": "J'ai contribué au développement d'applications web en utilisant JavaScript, React.js, et Node.js. J'ai géré des bases de données et implémenté des solutions de stockage de données en utilisant MongoDB. J'ai travaillé en étroite collaboration avec les gestionnaires de produits pour prioriser les fonctionnalités et les améliorations.",
+      "technologies": ["Ruby", "Rails", "PHP", "Sqlite"]
+    }
+  ],
+  "PROJECTS": [
+    {
+      "title": "Site Web de Commerce Électronique",
+      "image": "../assets/projects/project-1.jpg",
+      "description": "Un site web de commerce électronique pleinement fonctionnel avec des fonctionnalités telles que la liste de produits, le panier d'achat, et l'authentification utilisateur.",
+      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+    },
+    {
+      "title": "Application de Gestion de Tâches",
+      "image": "../assets/projects/project-2.jpg",
+      "description": "Une application pour gérer les tâches et les projets, avec des fonctionnalités telles que la création de tâches, l'affectation, et le suivi de la progression.",
+      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+    },
+    {
+      "title": "Site Web de Portfolio",
+      "image": "../assets/projects/project-3.jpg",
+      "description": "Un site web de portfolio personnel mettant en avant les projets, les compétences, et les informations de contact.",
+      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
+    },
+    {
+      "title": "Plateforme de Blogging",
+      "image": "../assets/projects/project-4.jpg",
+      "description": "Une plateforme pour créer et publier des articles de blog, avec des fonctionnalités comme l'édition de texte riche, les commentaires, et les profils utilisateurs.",
+      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+    }
+  ],
+
+  "CONTACT": {
+    "address": "767 Cinquième Avenue, New York, NY 10153",
+    "phoneNo": "+12 4555 666 00",
+    "email": "me@example.com"
+  }
+}

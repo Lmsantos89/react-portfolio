@@ -1,10 +1,25 @@
+import { useTranslation } from "react-i18next";
 import logo from "../assets/Ls.png";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { useState } from "react";
 
 const Navbar = () => {
+  const [t, i18n] = useTranslation("global");
+  const [selectedOption, setSelectedOption] = useState("en");
+
+  const handleChangeLanguage = (lang) => {
+    i18n.changeLanguage(lang);
+  };
+
+  const handleChange = (event) => {
+    const value = event.target.value;
+    setSelectedOption(value);
+    handleChangeLanguage(value);
+  };
+
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 fixed top-0 left-0 w-full">
+    <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <img className="mx-2 w-10" src={logo} alt="logo"></img>
       </div>
@@ -17,6 +32,18 @@ const Navbar = () => {
           <FaLinkedin />
         </a>
         <FaGithub />
+        <select
+          className="bg-transparent font-light text-center"
+          value={selectedOption}
+          onChange={handleChange}
+        >
+          <option className="font-light" value="en">
+            EN
+          </option>
+          <option className="font-light" value="fr">
+            FR
+          </option>
+        </select>
       </div>
     </nav>
   );

@@ -1,7 +1,29 @@
-import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import React, { useState, useEffect } from "react";
 
 const Projects = () => {
+  const [t, i18n] = useTranslation("global");
+  const [images, setImages] = useState({});
+
+  const projects = t("PROJECTS", { returnObjects: true });
+
+  useEffect(() => {
+    const loadImages = async () => {
+      const imagePromises = projects.map((project) => {
+        return import(project.image).then((imageModule) => ({
+          [project.image]: imageModule.default,
+        }));
+      });
+
+      const loadedImages = await Promise.all(imagePromises);
+      const imageMap = Object.assign({}, ...loadedImages);
+      setImages(imageMap);
+    };
+
+    loadImages();
+  }, [projects]);
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -13,7 +35,7 @@ const Projects = () => {
         Projects
       </motion.h2>
       <div>
-        {PROJECTS.map((project, index) => (
+        {projects.map((project, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
@@ -21,13 +43,15 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              {images[project.image] && (
+                <img
+                  src={images[project.image]}
+                  width={150}
+                  height={150}
+                  alt={project.title}
+                  className="mb-6 rounded"
+                />
+              )}
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

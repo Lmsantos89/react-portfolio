@@ -1,7 +1,11 @@
-import { EXPERIENCES } from "../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const [t, i18n] = useTranslation("global");
+
+  const experiences = t("EXPERIENCES", { returnObjects: true });
+
   return (
     <div className="border-b border-neutral-900 pb-4">
       <motion.h2
@@ -13,7 +17,7 @@ const Experience = () => {
         Experience
       </motion.h2>
       <div>
-        {EXPERIENCES.map((experience, index) => (
+        {experiences.map((experience, index) => (
           <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
