@@ -1,7 +1,6 @@
-import profilePic from "../assets/KevinRushProfile.png";
+import profilePic from "../assets/ProfilePic.jpg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Technologies from "./Technologies";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },

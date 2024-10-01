@@ -5,58 +5,55 @@
 
   "EXPERIENCES": [
     {
-      "year": "2023 - Présent",
-      "role": "Développeur Full Stack Senior",
-      "company": "Google Inc.",
-      "description": "J'ai dirigé une équipe dans le développement et la maintenance d'applications web en utilisant JavaScript, React.js, et Node.js. J'ai implémenté des API RESTful et intégré avec des bases de données MongoDB. J'ai collaboré avec les parties prenantes pour définir les exigences et les délais du projet.",
-      "technologies": ["Javascript", "React.js", "Next.js", "mongoDB"]
-    },
-    {
-      "year": "2022 - 2023",
-      "role": "Développeur Frontend",
-      "company": "Adobe",
-      "description": "J'ai conçu et développé des interfaces utilisateur pour des applications web en utilisant Next.js et React. J'ai travaillé en étroite collaboration avec les développeurs backend pour intégrer les composants frontend avec les API Node.js. J'ai mis en œuvre des designs responsives et optimisé la performance du frontend.",
-      "technologies": ["HTML", "CSS", "Vue.js", "mySQL"]
-    },
-    {
-      "year": "2021 - 2022",
-      "role": "Développeur Full Stack",
-      "company": "Facebook",
-      "description": "J'ai développé et maintenu des applications web en utilisant JavaScript, React.js, et Node.js. J'ai conçu et implémenté des API RESTful pour la communication des données. J'ai collaboré avec des équipes multifonctionnelles pour livrer des produits logiciels de haute qualité dans les délais.",
-      "technologies": ["Python", "Svelte", "Three.js", "Postgres"]
-    },
-    {
-      "year": "2020 - 2021",
+      "year": "Juin 2022 - Avril 2024",
       "role": "Ingénieur Logiciel",
-      "company": "Paypal",
-      "description": "J'ai contribué au développement d'applications web en utilisant JavaScript, React.js, et Node.js. J'ai géré des bases de données et implémenté des solutions de stockage de données en utilisant MongoDB. J'ai travaillé en étroite collaboration avec les gestionnaires de produits pour prioriser les fonctionnalités et les améliorations.",
-      "technologies": ["Ruby", "Rails", "PHP", "Sqlite"]
-    }
-  ],
-  "PROJECTS": [
-    {
-      "title": "Site Web de Commerce Électronique",
-      "image": "../assets/projects/project-1.jpg",
-      "description": "Un site web de commerce électronique pleinement fonctionnel avec des fonctionnalités telles que la liste de produits, le panier d'achat, et l'authentification utilisateur.",
-      "technologies": ["HTML", "CSS", "React", "Node.js", "MongoDB"]
+      "company": "Edgelab - Lausanne",
+      "description": "Développement de nouvelles fonctionnalités pour trois applications Web différentes. Migration de code, amélioration de logiques d'entreprise existantes, et support client. Impliqué dans toutes les phases du développement depuis la conception jusqu'au déploiement et la maintenance.",
+      "technologies": [
+        "Java 17",
+        "Spring Framework",
+        "Angular 2+",
+        "JUnit",
+        "PostgreSQL",
+        "R2DBC",
+        "Kotlin/Ktor",
+        "Jenkins",
+        "Docker",
+        "Mockito",
+        "Grafana",
+        "OpenAPI"
+      ]
     },
     {
-      "title": "Application de Gestion de Tâches",
-      "image": "../assets/projects/project-2.jpg",
-      "description": "Une application pour gérer les tâches et les projets, avec des fonctionnalités telles que la création de tâches, l'affectation, et le suivi de la progression.",
-      "technologies": ["HTML", "CSS", "Angular", "Firebase"]
+      "year": "Juillet 2019 - Mai 2022",
+      "role": "Développeur Java Fullstack",
+      "company": "Affinity - Lisbonne",
+      "description": "Travail sur une application Web pour BNP Paribas utilisant ExtJS, Vue.js, Java 8, Spring et Sybase. L'application permettait aux traders internes de prêter et d'emprunter des actions, des obligations, etc. Mes responsabilités comprenaient le développement de nouvelles fonctionnalités, la correction de bugs pour les déploiements à venir, le support des utilisateurs, et la migration du frontend d'ExtJS à Vue.js.",
+      "technologies": [
+        "ExtJS",
+        "Vue.js",
+        "Java 8",
+        "Spring",
+        "Sybase",
+        "Jenkins"
+      ]
     },
     {
-      "title": "Site Web de Portfolio",
-      "image": "../assets/projects/project-3.jpg",
-      "description": "Un site web de portfolio personnel mettant en avant les projets, les compétences, et les informations de contact.",
-      "technologies": ["HTML", "CSS", "React", "Bootstrap"]
-    },
-    {
-      "title": "Plateforme de Blogging",
-      "image": "../assets/projects/project-4.jpg",
-      "description": "Une plateforme pour créer et publier des articles de blog, avec des fonctionnalités comme l'édition de texte riche, les commentaires, et les profils utilisateurs.",
-      "technologies": ["HTML", "CSS", "Vue.js", "Express", "mySQL"]
+      "year": "Février 2018 - Juillet 2019",
+      "role": "Consultant en informatique",
+      "company": "Syone - Lisbonne",
+      "description": "Participation à une formation Java Academy de deux mois couvrant plusieurs langages de programmation tels que Java, Angular, HTML, CSS, Javascript, Typescript. Travail fullstack sur deux projets, développement d'applications web avec Angular 5, Java 8, Spring, et MySQL en utilisant une méthodologie Agile/Scrum et une architecture MVC. Après ces projets, j'ai travaillé sur un projet de migration, réécrivant le backend de PowerBuilder vers .NET.",
+      "technologies": [
+        "Java",
+        "Angular 5",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Typescript",
+        "Spring",
+        "MySQL",
+        ".NET"
+      ]
     }
   ],
 

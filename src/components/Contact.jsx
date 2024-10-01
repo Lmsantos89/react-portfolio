@@ -1,7 +1,10 @@
-import { CONTACT } from "../constants";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import CV from "../assets/cv/Luis_Santos_CV - fr.pdf";
 
 const Contact = () => {
+  const [t, i18n] = useTranslation("global");
+
   return (
     <div className="border-b border-neutral-900 pb-20">
       <motion.h1
@@ -19,7 +22,7 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.address}
+          {t("CONTACT.address")}
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
@@ -27,11 +30,28 @@ const Contact = () => {
           transition={{ duration: 1 }}
           className="my-4"
         >
-          {CONTACT.phoneNo}
+          {t("CONTACT.phoneNo")}
         </motion.p>
-        <a href="#" className="border-b">
-          {CONTACT.email}
-        </a>
+        <motion.p
+          whileInView={{ opacity: 1, x: 0 }}
+          initial={{ opacity: 0, x: -100 }}
+          transition={{ duration: 1 }}
+        >
+          {t("CONTACT.email")}
+        </motion.p>
+        <div className="py-5">
+          <motion.a
+            href={CV}
+            download="Luis Santos - CV"
+            target="_blank"
+            whileInView={{ opacity: 1, y: 0 }}
+            initial={{ opacity: 0, y: 100 }}
+            transition={{ duration: 0.7 }}
+            className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded"
+          >
+            Download CV
+          </motion.a>
+        </div>
       </div>
     </div>
   );
