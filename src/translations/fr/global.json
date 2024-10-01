@@ -58,8 +58,17 @@
   ],
 
   "CONTACT": {
-    "address": "767 Cinquième Avenue, New York, NY 10153",
-    "phoneNo": "+12 4555 666 00",
-    "email": "me@example.com"
+    "address": "1800 - Vevey",
+    "phoneNo": "+41 079 693 36 41",
+    "email": "lmc.santos89@gmail.com",
+    "download": "Télécharger"
+  },
+
+  "TITLES": {
+    "about": "À propos de moi",
+    "technologies": "Technologies",
+    "experience": "Expérience",
+    "certifications": "Certifications",
+    "contact": "Me Contacter"
   }
 }

@@ -60,6 +60,15 @@
   "CONTACT": {
     "address": "1800 - Vevey",
     "phoneNo": "+41 079 693 36 41",
-    "email": "lmc.santos89@gmail.com"
+    "email": "lmc.santos89@gmail.com",
+    "download": "Download"
+  },
+
+  "TITLES": {
+    "about": "About Me",
+    "technologies": "Technologies",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Get in Touch"
   }
 }

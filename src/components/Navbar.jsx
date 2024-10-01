@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [t, i18n] = useTranslation("global");
-  const [selectedOption, setSelectedOption] = useState("en");
+  const [selectedOption, setSelectedOption] = useState("fr");
 
   const handleChangeLanguage = (lang) => {
     i18n.changeLanguage(lang);
@@ -37,11 +37,11 @@ const Navbar = () => {
           value={selectedOption}
           onChange={handleChange}
         >
-          <option className="font-light" value="en">
-            EN
-          </option>
           <option className="font-light" value="fr">
             FR
+          </option>
+          <option className="font-light" value="en">
+            EN
           </option>
         </select>
       </div>
