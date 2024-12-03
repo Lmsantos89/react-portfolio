@@ -1,9 +1,17 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import CV from "../assets/cv/Luis_Santos_CV - fr.pdf";
+
+const CV_FILES = {
+  en: "src/assets/cv/Luis_Santos_CV - en.pdf",
+  fr: "src/assets/cv/Luis_Santos_CV - fr.pdf",
+};
 
 const Contact = () => {
   const [t, i18n] = useTranslation("global");
+
+  const currentLanguage = i18n.language;
+
+  const cvFilePath = CV_FILES[currentLanguage] || CV_FILES["en"];
 
   return (
     <div className="border-b border-neutral-900 pb-20">
@@ -46,7 +54,7 @@ const Contact = () => {
           className="py-5"
         >
           <a
-            href={CV}
+            href={cvFilePath}
             download="Luis Santos - CV"
             target="_blank"
             className="bg-cyan-500 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded"
