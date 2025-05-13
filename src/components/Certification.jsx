@@ -42,7 +42,7 @@ const Certification = () => {
         <motion.a
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -100 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 1.7 }}
           href="https://certificates.dev/c/9ed96205-8bb6-49cd-9504-de4187482562"
           target="_blank"
           rel="noopener"

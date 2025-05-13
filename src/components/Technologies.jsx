@@ -4,7 +4,9 @@ import { FaAngular } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { RiReactjsFill } from "react-icons/ri";
+import { FcLinux } from "react-icons/fc";
+import { SiTypescript } from "react-icons/si";
+import { FaDocker } from "react-icons/fa";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -83,7 +85,7 @@ const Technologies = () => {
           animate="animate"
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
-          <RiReactjsFill className="text-7xl text-cyan-500" />
+          <FcLinux className="text-7xl " />
         </motion.div>
         <motion.div
           variants={iconVariants(6)}
@@ -92,6 +94,22 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <IoLogoJavascript className="text-7xl text-yellow-300" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiTypescript className="text-7xl text-blue-900" />
+        </motion.div>
+        <motion.div
+          variants={iconVariants(6)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <FaDocker className="text-7xl text-blue-500" />
         </motion.div>
       </motion.div>
     </div>
